@@ -21,9 +21,13 @@
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
-  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+  <!--
+     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" /> 
+  -->
   <link href="css/nivo-lightbox.css" rel="stylesheet" />
+  <!--
   <link href="css/nivo-lightbox-theme/default/default.css" rel="stylesheet" type="text/css" />
+  -->
   <link href="css/animations.css" rel="stylesheet" />
   <link href="css/style.css" rel="stylesheet">
   <link href="color/default.css" rel="stylesheet">
@@ -134,16 +138,17 @@
           <br>
           <h6 id=my-name>Quin Hsieh | Quiny</h6>
           <p><strong>Data Scientist based in Taipei, Taiwan</strong></p>
-          <p id=tag>#DataScience #ArtificialIntelligence #MachineLearning #DeepLearning # NLP #R #Python #Java #SQL </p>
+          <p id=tag>#DataScience #ArtificialIntelligence #MachineLearning #DeepLearning #NLP #SQL #Python #R #Java</p>
           <br>
-          <p>I'm a data scientist and passionate about data and programming languages, using artificial intelligence and
-            machine learning analysis as data-driven business solutions and decisions.</p>
+          <p>Hi, I'm a data scientist and passionate about data and programming languages, using artificial intelligence
+            and machine learning analysis as data-driven business solutions and decisions.</p>
           <p>Built problem solving experience with excellent communication and programming skills.</p>
-          <p>Currently data scientist & associate researcher at CECI R/Python coder.</p>
+          <p>Currently data scientist & data engineer at PChome Online R/Python coder.</p>
           <br>
           <p>Expertise in data mining and cross-unit communication, proposing valuable solutions. I've done several
-            data-related projects coded in R/Python ( used libraries such as: tidyr, dplyr, tensorflow, keras, pandas,
-            sklearn, pytorch, etc. ).</p>
+            data-related projects coded in R/Python ( used libraries such as: tidyr, dplyr, shiny, tensorflow, keras,
+            pandas,
+            sklearn, pytorch etc. ).</p>
           <p>Also, I've created several data visualization projects using R tools such as shinydashboard, and BI tools
             about Tableau & Power BI, etc.</p>
           <br>
@@ -188,13 +193,28 @@
                 <th>Description</th>
                 <th>Skillset</th>
                 <th>Link</th>
-                <th>Last Update</th>
+                <th>Update</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td style="width:200px"><a class=project-name
-                    href="https://quinyhsieh.shinyapps.io/coronavirus_covid19/" target="_blank">Coronavirus COVID-19
+                <td style="width:200px"><a class=project-name href="https://quinyhsieh.shinyapps.io/ceci_crsm/"
+                    target="_blank">Rural Area Dashboard</a>
+                </td>
+
+                <td>Improve the convenience of transportation through the service status of transportation vehicles in
+                  rural areas, and use population and gender statistics as an auxiliary reference.
+                </td>
+                <td id=tag>#DataViz #R #shiny #tidyverse #SwaggerUI #OpenApi</td>
+                <td>
+                  <a class='project-link underline-dashed' href="https://quinyhsieh.shinyapps.io/ceci_crsm/"
+                    target="_blank">Shiny</a>
+                </td>
+                <td>Mar. 2022</td>
+              </tr>
+              <tr>
+                <td><a class=project-name href="https://quinyhsieh.shinyapps.io/coronavirus_covid19/"
+                    target="_blank">Coronavirus COVID-19
                     Dashboard</a></td>
 
                 <td>The Coronavirus dashboard provides an overview of the 2019 Novel Coronavirus COVID-19 (2019-nCoV)
@@ -206,7 +226,7 @@
                   <a class='project-link underline-dashed' href="https://quinyhsieh.shinyapps.io/coronavirus_covid19/"
                     target="_blank">Shiny</a>
                 </td>
-                <td>Oct. 2020</td>
+                <td>Sep. 2022</td>
               </tr>
               <tr>
                 <td><a class=project-name href="https://quinyhsieh.shinyapps.io/stock_quiny/"
@@ -220,7 +240,7 @@
                   <a class='project-link underline-dashed' href="https://quinyhsieh.shinyapps.io/stock_quiny/"
                     target="_blank">Shiny</a>
                 </td>
-                <td>Jan. 2021</td>
+                <td>Mar. 2022</td>
               </tr>
               <tr>
                 <td><a class=project-name href="https://quinyhsieh.shinyapps.io/mountain_quiny/" target="_blank">Taiwan
@@ -234,7 +254,7 @@
                   <a class='project-link underline-dashed' href="https://quinyhsieh.shinyapps.io/mountain_quiny/"
                     target="_blank">Shiny</a>
                 </td>
-                <td>Sep. 2019</td>
+                <td>Sep. 2021</td>
               </tr>
               <tr>
                 <td><a class=project-name href="hhttps://quinhsieh.github.io/sales-dashboard" target="_blank">LUXGEN
@@ -247,7 +267,7 @@
                 <td><a class='project-link underline-dashed' target="_blank"
                     href="https://quinhsieh.github.io/sales-dashboard">Shiny</a>
                 </td>
-                <td>Jan. 2021</td>
+                <td>Aug. 2022</td>
               </tr>
               <tr>
                 <td><a class='project-name' href="https://quinhsieh.github.io/quiny-hsieh">Personal Website - Quin
@@ -259,7 +279,7 @@
                 <td>
                   <a class='project-link underline-dashed' href="https://quinhsieh.github.io/quiny-hsieh">Website</a>
                 </td>
-                <td>Jan. 2021</td>
+                <td>Sep. 2022</td>
               </tr>
 
             </tbody>
@@ -293,44 +313,72 @@
           <!-- <div class="table"> -->
           <h6 id='experience-title'>Professional Experience</h6>
           <table class="table table-condensed table-hover">
-            <tr>
-              <th class="col-md-2">
-                <b class='work-position'>Data Scientist | Associate Researcher</b>
-                <br>
-                <b class='work-company'>China Engineering Consultants, Inc.</b>
-              </th>
-              <th class="col-md-1" style='width:9%'>
-                <b class='work-city'>Taipei, Taiwan</b>
-                <br>
-                <b class='work-date'>09/2020 - Currently</b>
-              </th>
-              <td class="col-md-6">
-                <ul id='education'>
-                  <p id='cv-subtitle'></p>
-                  <li>Design large and expansive scale, implement distributed computing of data.
-                  </li>
-                  <li>Processing, cleansing, verifying and optimizing the data process pipeline used for analysis.
-                  </li>
-                  <li>Selecting features, building and optimizing classifiers using machine learning techniques.
-                  </li>
-                  <li>Analyze large amounts of data to discover trends and patterns.
-                  </li>
-                  <li>Build predictive models and machine learning algorithms.
-                  </li>
-                  <li>Present information using data visualization techniques.
-                  </li>
-                  <li>Collaborate with other team to build supervised and unsupervised learning capabilities with
-                    prediction, early alerting, and prescriptive recommendations.
-                  </li>
-                </ul>
-              </td>
-            </tr>
             <tbody>
+              <tr>
+                <th class="col-md-2">
+                  <b class='work-position'>Lead Data Scientist | Data Engineer</b>
+                  <br>
+                  <b class='work-company'>PChome Online Inc.</b>
+                </th>
+                <th class="col-md-1" style='width:9%'>
+                  <b class='work-city'>Taipei, Taiwan</b>
+                  <br>
+                  <b class='work-date'>03/2022 - Currently</b>
+                </th>
+                <td class="col-md-6">
+                  <ul id='education'>
+                    <p id='cv-subtitle'></p>
+                    <li>Database management and processing performance optimization.
+                    </li>
+                    <li>Customer segmentation prediction and behavior analysis.
+                    </li>
+                    <li>Assisting cross-sectoral projects through data analysis methods.
+                    </li>
+                    <li>Creating intuitive user interface for interactive data visualization to explain
+                      insights from data.
+                    </li>
+                    <li>Building and development of machine learning, deep learning or statistical analysis models.
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <th class="col-md-2">
+                  <b class='work-position'>Data Scientist | Associate Researcher</b>
+                  <br>
+                  <b class='work-company'>China Engineering Consultants, Inc.</b>
+                </th>
+                <th class="col-md-1" style='width:9%'>
+                  <b class='work-city'>Taipei, Taiwan</b>
+                  <br>
+                  <b class='work-date'>09/2020 - 03/2022</b>
+                </th>
+                <td class="col-md-6">
+                  <ul id='education'>
+                    <p id='cv-subtitle'></p>
+                    <li>Design large and expansive scale, implement distributed computing of data.
+                    </li>
+                    <li>Processing, cleansing, verifying and optimizing the data process pipeline used for analysis.
+                    </li>
+                    <li>Selecting features, building and optimizing classifiers using machine learning techniques.
+                    </li>
+                    <li>Analyze large amounts of data to discover trends and patterns.
+                    </li>
+                    <li>Build predictive models and machine learning algorithms.
+                    </li>
+                    <li>Present information using data visualization techniques.
+                    </li>
+                    <li>Collaborate with other team to build supervised and unsupervised learning capabilities with
+                      prediction, early alerting, and prescriptive recommendations.
+                    </li>
+                  </ul>
+                </td>
+              </tr>
               <tr>
                 <td>
                   <b class='work-position'>Data Scientist | Project Manager</b>
                   <br>
-                  <b class='work-company'>Taiwan External Trade Development Council</b>
+                  <b class='work-company'>Taiwan External Trade Development Council, TAITRA</b>
                 </td>
                 <td>
                   <b class='work-city'>Taipei, Taiwan</b>
@@ -442,30 +490,31 @@
           <br>
           <h6 id='experience-title'>Education</h6>
           <table class="table table-condensed table-hover">
-            <tr>
-              <th class="col-md-2">
-                <b class='work-position'>Master of Applied Mathematics</b>
-                <br>
-                <b class='work-company'>National Dong Hwa University</b>
-              </th>
-              <th class="col-md-1" style='width:9%'>
-                <b class='work-city'>Hualien, Taiwan</b>
-                <br>
-                <b class='work-date'>09/2009 - 08/2011</b>
-              </th>
-              <td class="col-md-6">
-                <ul>
-                  <p><b>Specialization: Long-term Tracking Data Analysis</b></p>
-                  <p>• Thesis title: "Goodness of Fit Tests for GEE Models with Correlated Ordinal Data". Extending the
-                    statistics to general marginal regression models with correlated ordinal data, including its
-                    analysis and simulation for assessing the goodness of fitted marginal models.
-                  </p>
-                  <p>• Biostatistics • Advanced Probability theory • Cryptocurrencies & Blockchain • Programming
-                  </p>
-                </ul>
-              </td>
-            </tr>
             <tbody>
+              <tr>
+                <th class="col-md-2">
+                  <b class='work-position'>Master of Applied Mathematics</b>
+                  <br>
+                  <b class='work-company'>National Dong Hwa University</b>
+                </th>
+                <th class="col-md-1" style='width:9%'>
+                  <b class='work-city'>Hualien, Taiwan</b>
+                  <br>
+                  <b class='work-date'>09/2009 - 08/2011</b>
+                </th>
+                <td class="col-md-6">
+                  <ul>
+                    <p><b>Specialization: Long-term Tracking Data Analysis</b></p>
+                    <p>• Thesis title: "Goodness of Fit Tests for GEE Models with Correlated Ordinal Data". Extending
+                      the
+                      statistics to general marginal regression models with correlated ordinal data, including its
+                      analysis and simulation for assessing the goodness of fitted marginal models.
+                    </p>
+                    <p>• Biostatistics • Advanced Probability theory • Cryptocurrencies & Blockchain • Programming
+                    </p>
+                  </ul>
+                </td>
+              </tr>
               <tr>
                 <td>
                   <b class='work-position'>Bachelor of Statistics</b>
@@ -489,11 +538,11 @@
             </tbody>
           </table>
           <br>
-          <p id='cv-download'> • Download my CV in PDF here: <a href="documents/CV_QUINY-en-2022.pdf"
+          <p id='cv-download'> • Download my CV in PDF here: <a href="documents/CV_QUINY-en-20220825.pdf"
               class='underline-dashed' target="_blank" id='cv-download-link'>English</a><small><i id="cv-update-date">
-                (Last updated: Jan. 2022) </i></small>
-            <a href="documents/CV_QUINY-ch-2022.pdf" class='underline-dashed' target="_blank"
-              id='cv-download-link'>Chinese</a><small><i id="cv-update-date"> (Last updated: Jan. 2022) </i></small>
+                (Last updated: Aug. 2022) </i></small>
+            <a href="documents/CV_QUINY-ch-20220825.pdf" class='underline-dashed' target="_blank"
+              id='cv-download-link'>Chinese</a><small><i id="cv-update-date"> (Last updated: Aug. 2022) </i></small>
           </p>
         </div>
       </div>
@@ -534,6 +583,39 @@
               </tr>
             </thead>
             <tbody>
+              <tr>
+                <td>
+                  <p class='project-name' href="">BI Dashboards with Tableau Course</p>
+                </td>
+                <td>Codecademy</td>
+                <td id=tag>Tableau • DataViz • Dashboard • Data-driven
+                </td>
+                <td><a class='project-link underline-dashed' href="documents/tableau-certificate.pdf"
+                    target="_blank">PDF</a></td>
+                <td>Jul. 2022</td>
+              </tr>
+              <tr>
+                <td>
+                  <p class='project-name' href="">Intermediate SQL Server</p>
+                </td>
+                <td>Datacamp</td>
+                <td id=tag>SQL • MSSQL • Stored Procedure • Schedule
+                </td>
+                <td><a class='project-link underline-dashed' href="documents/sql-certificate.pdf"
+                    target="_blank">PDF</a></td>
+                <td>May. 2022</td>
+              </tr>
+              <tr>
+                <td>
+                  <p class='project-name' href="">Use HTML, CSS, JS, PHP, MySQL create websites</p>
+                </td>
+                <td>Udemy</td>
+                <td id=tag>HTML • CSS • JavaScript • PHP • MySQL
+                </td>
+                <td><a class='project-link underline-dashed' href="documents/front-certificate.pdf"
+                    target="_blank">PDF</a></td>
+                <td>Jun. 2021</td>
+              </tr>
               <tr>
                 <td>
                   <p class='project-name' href="">String Manipulation with stringr in R</p>
@@ -633,7 +715,8 @@
           <div class="text-left">
             <h6 id='my-name'>Quin Hsieh | Quiny</h6>
             <p>Based in Taipei, Taiwan</p>
-            <p>Data Scientist @ CECI | Data Scientist & Associate Researcher in CECI</p>
+            <p>Data Scientist @ PChome Online Inc.
+              <br> Lead Data Scientist & Data Engineer in PChome Online Inc.</p>
             <p class='contact-info'><span class="glyphicon glyphicon-envelope"></span> E-mail: <a
                 href="mailto:quinyhsieh@gmail.com" id='email' class='contact-info'>quinyhsieh@gmail.com</a></p>
             <p class='contact-info'><span class="glyphicon glyphicon-phone"></span> Phone: <a href="tel:0910222538"
@@ -642,9 +725,10 @@
             </ul>
             <div class="footer-social-icons">
               <ul class="social-icons">
-                <li><a href="https://www.linkedin.com/in/quiny-hsieh/" class="social-icon"> <i
+                <li><a href="https://www.linkedin.com/in/quiny-hsieh/" target="_blank" class="social-icon"> <i
                       class="fa fa-linkedin"></i></a></li>
-                <li><a href="https://github.com/QuinHsieh" class="social-icon"> <i class="fa fa-github"></i></a></li>
+                <li><a href="https://github.com/QuinHsieh" target="_blank" class="social-icon"> <i
+                      class="fa fa-github"></i></a></li>
               </ul>
             </div>
           </div>
@@ -666,7 +750,7 @@
           </div>
         </div>
         <div class="col-md-10 text-right">
-          <p>Copyright &copy; 2021 - Designed by Quin Hsieh</p>
+          <p>Copyright &copy; 2022 - Designed by Quin Hsieh</p>
         </div>
       </div>
     </div>
