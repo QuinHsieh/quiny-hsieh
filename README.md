@@ -1,6 +1,6 @@
 ## Quin Hsieh- Personal Website
 
-#### QUIN HSIEH | Data Scientist | Data Engineer in PChome Online Inc.
+#### QUIN HSIEH | Engineering Manager | Data Scientist in MIH Consortium.
 
 Hello, I'm Quiny. If you're interested in me for any opportunity, don't hesitate to contact me.  
 
@@ -10,7 +10,7 @@ Here is the link of my personal website:
 
 > **QUIN HSIEH | Quiny**  
 > *Based in Taiwan, Taipei*  
-> *Lead Data Scientist | Data Engineer in PChome Online Inc.*  
+> *Engineering Manager | Data Scientist in MIH Consortium.*  
 > * **E-mail:** quinyhsieh@gmail.com  
 > * **LinkedIn:** https://www.linkedin.com/in/quiny-hsieh/  
 > * **Github:** https://github.com/QuinHsieh
